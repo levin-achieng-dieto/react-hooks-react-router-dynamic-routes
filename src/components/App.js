@@ -10,6 +10,8 @@ function App() {
     3: { id: 3, title: "Inception" },
   });
 
+  console.log(setMovies);
+
   return (
     <div>
       <NavBar />
@@ -26,3 +28,6 @@ function App() {
 }
 
 export default App;
+
+
+
